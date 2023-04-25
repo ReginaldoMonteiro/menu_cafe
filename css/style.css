@@ -1,0 +1,55 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+header{
+    background-color: antiquewhite;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+header .logo{
+  display: flex;
+  align-items: center; 
+  margin-left: 10px;  
+}
+
+header .logo img{
+    width: 50px;
+    border-radius: 50px;
+  }
+
+header .logo p{  
+    margin-left: 10px; 
+font-size: 3rem;
+font-weight: bold;
+  }
+
+header .menu{
+    display:flex; 
+    font-size: 2rem;   
+}
+
+header ul li a{
+    padding: 15px 10px;  
+   margin-left: 40px; 
+   transition: 0.3s ease;   
+}
+
+header ul li a:hover{       
+    color: white;
+    
+    background-color: #5BC241;
+    border-radius: 10px;
+   }
+   header .botao{
+    background-color: #5BC241;
+    padding: 15px 30px;
+    border-radius: 20px;
+    color: white;
+}
